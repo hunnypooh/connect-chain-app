@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "534576949063",
+    "project_id": "connect-chain-app",
+    "storage_bucket": "connect-chain-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534576949063:android:623f6826f20f4d0d4b0e62",
+        "android_client_info": {
+          "package_name": "com.example.demo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534576949063-bj7sjtatbtmh5f21ncqahcfa5epbqrom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLTPecX_czQX533cY-_w0SWGLJsgpJIBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534576949063-bj7sjtatbtmh5f21ncqahcfa5epbqrom.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "534576949063-ef56vv0hhb99hnioh2fl09c6qg4uvija.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.demoApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
