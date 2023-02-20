@@ -136,7 +136,7 @@ class _MyPageScreenState extends State<MyPageScreen> {
                     ),
                   ),
                   SizedBox(height: 10),
-                  Text('nft 목록'),
+                  Text('판매 상품 목록'),
                   SizedBox(height: 10),
                 ],
               ),
@@ -164,30 +164,30 @@ class _MyPageScreenState extends State<MyPageScreen> {
                   SizedBox(height: 10),
                 ],
               ),
-              // Column(
-              //   children: [
-              //     Listener(
-              //       onPointerUp: (PointerUpEvent event) {
-              //         // Navigator.of(context).pushNamed(
-              //         //   WatchListScreen.routeName,
-              //         // );
-              //       },
-              //       child: CircleAvatar(
-              //         radius: 28,
-              //         backgroundColor:
-              //             Theme.of(context).focusColor.withOpacity(0.2),
-              //         child: IconButton(
-              //           icon: Icon(Icons.favorite),
-              //           color: Theme.of(context).focusColor,
-              //           onPressed: () {},
-              //         ),
-              //       ),
-              //     ),
-              //     SizedBox(height: 10),
-              //     Text('관심 목록'),
-              //     SizedBox(height: 10),
-              //   ],
-              // ),
+              Column(
+                children: [
+                  Listener(
+                    onPointerUp: (PointerUpEvent event) {
+                      // Navigator.of(context).pushNamed(
+                      //   WatchListScreen.routeName,
+                      // );
+                    },
+                    child: CircleAvatar(
+                      radius: 28,
+                      backgroundColor:
+                          Theme.of(context).focusColor.withOpacity(0.2),
+                      child: IconButton(
+                        icon: Icon(Icons.favorite),
+                        color: Theme.of(context).focusColor,
+                        onPressed: () {},
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  Text('희망 목록'),
+                  SizedBox(height: 10),
+                ],
+              ),
               Column(
                 children: [
                   Listener(

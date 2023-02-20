@@ -110,7 +110,7 @@ class _NewProductRegisterScreenState extends State<NewProductRegisterScreen> {
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: Text('신규 상품 NFT 등록하기'),
+        title: Text(' 등록하기'),
         titleTextStyle: TextStyle(fontSize: 20, color: Colors.black),
         centerTitle: true,
         elevation: 0.0,

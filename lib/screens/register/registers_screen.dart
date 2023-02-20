@@ -14,7 +14,7 @@ class RegistersScreen extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: ElevatedButton(
-            child: Text("NFT 등록(새상품)"),
+            child: Text("판매할 물건 등록(새상품)"),
             style: ElevatedButton.styleFrom(
               textStyle: TextStyle(
                 fontSize: 20.0,
@@ -31,7 +31,7 @@ class RegistersScreen extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: ElevatedButton(
-            child: Text("NFT 등록(사용하고 있는 상품)"),
+            child: Text("판매할 물건 등록(사용하고 있는 상품)"),
             style: ElevatedButton.styleFrom(
               textStyle: TextStyle(
                 fontSize: 20.0,

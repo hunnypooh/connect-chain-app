@@ -1,6 +1,5 @@
 import 'package:provider/provider.dart';
 
-import '../../dummy_data.dart';
 import 'package:flutter/material.dart';
 import '../../models/post.dart';
 import '../../providers/post/post_list_provider.dart';

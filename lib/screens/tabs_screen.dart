@@ -18,24 +18,7 @@ class _TabsScreenState extends State<TabsScreen> {
     {
       'page': HomeScreen(),
       'title': 'Connect Chain',
-      'actions': <Widget>[
-        IconButton(
-          visualDensity: VisualDensity(horizontal: -3),
-          onPressed: null,
-          icon: const Icon(
-            Icons.search,
-            color: Colors.black,
-          ),
-        ),
-        IconButton(
-          visualDensity: VisualDensity(horizontal: -3),
-          onPressed: null,
-          icon: const Icon(
-            Icons.menu,
-            color: Colors.black,
-          ),
-        ),
-      ],
+      'actions': <Widget>[],
       'isFloating': false,
     },
     {
@@ -76,6 +59,7 @@ class _TabsScreenState extends State<TabsScreen> {
       child: Scaffold(
         appBar: AppBar(
           centerTitle: false,
+          automaticallyImplyLeading: false,
           backgroundColor: Theme.of(context).primaryColor,
           foregroundColor: Colors.white,
           elevation: 2,

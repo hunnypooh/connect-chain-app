@@ -49,7 +49,7 @@ class _NftListScreenState extends State<NftListScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          '보유한 NFT 목록',
+          '보유한 상품 목록',
           style: TextStyle(
               color: Colors.black, fontSize: 20, fontWeight: FontWeight.w900),
         ),

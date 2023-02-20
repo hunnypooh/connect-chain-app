@@ -95,7 +95,7 @@ class _PostRegisterScreenState extends State<PostRegisterScreen> {
                 children: [
                   Expanded(
                     child: ElevatedButton(
-                      child: Text("판매글로 등록할 nft 선택하기"),
+                      child: Text("판매글로 등록할 상품 선택하기"),
                       style: ElevatedButton.styleFrom(
                         textStyle: TextStyle(
                           fontSize: 20.0,

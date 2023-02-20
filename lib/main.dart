@@ -144,7 +144,7 @@ class _DemoAppState extends State<DemoApp> {
               OldProductRegisterScreen(),
           PostRegisterScreen.routeName: (ctx) => PostRegisterScreen(),
           SelectNftRegisterScreen.routeName: (ctx) => SelectNftRegisterScreen(),
-          HistoryScreen.routename: (ctx) => HistoryScreen(),
+          // HistoryScreen.routename: (ctx) => HistoryScreen(),
         },
         theme: ThemeData(
           primaryColor: Color(0xffd96b5d),
