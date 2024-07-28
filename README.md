@@ -1,9 +1,8 @@
-# NFT 기반 중고거래 플랫폼 앱
-- Flutter, Firebase를 활용한 중고거래 앱
-- NFT 발행 기능은 추후 추가 예정
+# NFT 기반 중고거래 플랫폼 
+- 맥북, 명품 제품처럼 고가 제품들이 여러번 거래가 이뤄지는 것을 파악하고, 물품에 대한 거래 기록을 생성하고 추적해서 물품과 사용자 둘의 신뢰도를 높이고자 함.
 
 
-### 🖥 See on video : https://www.youtube.com/watch?v=qYMh2ixviP4
+### [🖥 See on video](https://youtu.be/gJIRsyNubto)
 
 ### 🔧 Key Feature
 - 사용자 인증
